@@ -532,8 +532,8 @@ blockquote {
 	left: 0;
 	top: 0;
 	right: 0;
-/*	background: #01aae7;*/
 	background-image: url("../img/navi-img.png");
+	background-size: 100%;
 	box-shadow: rgba(0,0,0,0.05) 0 3px 0;
 	padding: 12px 0;
 	-webkit-transform: translateY(-100%);
