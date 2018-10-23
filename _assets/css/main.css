@@ -469,9 +469,9 @@ blockquote {
 
 #head-content {
 	position: relative;
-	background: url(../img/header.png) 50% 0 no-repeat;
+	background: url(../img/header_new.png) 50% 0 no-repeat;
 	background-size: cover;
-	padding-top: 49.091%;
+	padding-top: 50.14%;/*49.091%;*/
 	opacity: 1;
 	-webkit-transition: all 1500ms ease-out;
 	transition: all 1500ms ease-out;
@@ -487,12 +487,15 @@ blockquote {
 	left: 0;
 	top: 0;
 	right: 0;
-	padding: 18px 0;
+	/* padding: 18px 0; */
+	padding: 5px 0;
 	font-size: 1.0769rem;
 	font-weight: 700;
 	text-align: center;
 	text-shadow: rgba(0, 0, 0, 0.32) 2px 2px 0;
 	line-height: 2.5;
+	
+	background: black;
 }
 
 #navi>div>a {
@@ -560,8 +563,10 @@ blockquote {
 
 #some-links {
 	position: absolute;
-	right: 0;
-	top: 21px;
+/*	right: 0;
+	top: 21px; */
+	right: 8px;
+	top: 8px;
 }
 
 #some-links a {
@@ -771,7 +776,7 @@ blockquote {
 .videocontainer {
   float: left;
   position: relative;
-  left: 15%;
+  left: 0%;
 }
 
 span.oe_displaynone { display: none !important; }
@@ -796,7 +801,7 @@ td.main {
 }
 
 td.left {
-	width:20%;
+	width:30%;
 	vertical-align:top; 
 	border-style: none none dashed none; 
 	border-width: 1px; 
@@ -804,7 +809,7 @@ td.left {
 }
 
 td.right {
-	width:80%;
+	width:70%;
 	vertical-align:top; 
 	border-style: none none dashed none; 
 	border-width: 1px; 
