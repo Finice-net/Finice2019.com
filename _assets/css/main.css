@@ -96,7 +96,8 @@ ol {
 }
 
 h2 {
-	margin: 0px 0px 25px 0px;	
+/*	margin: 0px 0px 25px 0px;	*/
+	margin: 10px 0px 10px 0px;	
 }
 html {
 	box-sizing: border-box;
@@ -173,6 +174,10 @@ a.button:hover {
 	max-width: 910px;
 }
 
+.wrapper.narrower {
+	max-width: 710px;
+}
+
 .wrapper * {
 	box-sizing: border-box;
 }
@@ -219,7 +224,7 @@ h4 {
 }
 
 p {
-	padding: 0 0 1.9231em;
+	padding: 0 0 0.9231em;
 }
 
 p.lead {
