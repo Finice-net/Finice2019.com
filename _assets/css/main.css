@@ -748,13 +748,21 @@ blockquote {
 }
 
 .logolist.large li {
-	width: 180px;
-	height: 135px;
+	width: 240px;
+	height: 150px;
 
 }
+
+.logolist.medium li {
+	/*margin-left: 50px;*/
+	width: 185px;
+	height: 115px;
+}
+
 .logolist.small li {
-	margin-left: 50px;
-	width: 180px;
+	/*margin-left: 50px;*/
+	width: 120px;
+	height: 75px;
 }
 
 .logolist li+li {
