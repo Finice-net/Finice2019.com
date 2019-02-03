@@ -792,6 +792,11 @@ blockquote {
   left: 0%;
 }
 
+.videocontainer_single {
+  position: relative;
+  left: 0%;
+}
+
 span.oe_displaynone { display: none !important; }
 
 table {
