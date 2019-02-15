@@ -28,8 +28,9 @@ jQuery( document ).ready( function( $ ) {
 		}
 
 	});
-
+  /*slick image carousel settings*/ 
 	$('.img-carousel').slick({
+		autoplay:true
 	  }
 	);
 	
