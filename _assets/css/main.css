@@ -889,3 +889,20 @@ table.registered td.regRight {
 	border-width: 1px; 
 	border-color: #01aae7 #01aae780 #7e7f8240 #01aae7;
 }
+
+/*slick image carousel back and forward arrows*/
+.slick-prev:before, .slick-next:before {
+     color:rgb(20,119,196)!important;
+}
+
+.slick-prev:hover:before, .slick-next:hover:before {
+    color:rgb(20,119,196)!important;
+}
+
+.flex-direction-nav a {
+    opacity:1;
+}
+
+.flex-direction-nav a:hover [class*="x-icon-"] {
+    color:rgb(20,119,196)!important;
+}

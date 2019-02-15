@@ -29,7 +29,10 @@ jQuery( document ).ready( function( $ ) {
 
 	});
 
-
+	$('.img-carousel').slick({
+	  }
+	);
+	
 	$( '#mapframe-overlay' ).on( 'click', function() {
 		
 		$( '#mapframe' )
