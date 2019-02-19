@@ -28,9 +28,10 @@ jQuery( document ).ready( function( $ ) {
 		}
 
 	});
-  /*slick image carousel settings*/ 
+  /*slick image carousel settings.  see http://kenwheeler.github.io/slick */ 
 	$('.img-carousel').slick({
-		autoplay:true
+		autoplay:true,
+		dots: true
 	  }
 	);
 	
